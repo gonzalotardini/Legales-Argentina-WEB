@@ -8,7 +8,7 @@
             <i class="bi bi-geo-alt-fill"></i> Arenales 554, B1638 Vicente
             López, Provincia de Buenos Aires
           </p>
-          <p><i class="bi bi-whatsapp"></i> +54 9 11 5767-2793</p>
+          <p><i class="bi bi-whatsapp"></i> +54 9 11 2401-5528</p>
           <p><i class="bi bi-envelope"></i> estudio@giovanellitardini.com.ar</p>
           <!-- <div class="map">
             <iframe

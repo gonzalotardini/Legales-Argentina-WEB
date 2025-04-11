@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <a href="https://wa.me/5491157672793?text=Hola%20quisiera%20más%20información" class="whatsapp-float" target="_blank" rel="noopener noreferrer">
+    <a href="https://wa.me/5491124015528?text=Hola%20quisiera%20más%20información" class="whatsapp-float" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-whatsapp"></i>
     </a>
     <menuDesktop v-if="isDesktop" />

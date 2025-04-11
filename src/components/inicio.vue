@@ -20,7 +20,7 @@
         <div class="div-h mt-5">
           <h1>Legales Argentina</h1>
 
-          <b-btn href="#contacto" variant="outline-light mt-5"> CONTACTANOS </b-btn>
+          <b-btn size="lg" href="#contacto" variant="outline-light mt-5"> CONTACTANOS </b-btn>
 
         </div>
       </b-carousel-slide>

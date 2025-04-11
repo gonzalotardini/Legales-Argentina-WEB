@@ -7,7 +7,7 @@
     :class="{ 'navbar-shrink': isShrunk }"
   >
     <b-navbar-brand href="#">
-      GIOVANELLI & TARDINI
+      LEGALES ARGENTINA
     </b-navbar-brand>
 
     <b-navbar-nav
