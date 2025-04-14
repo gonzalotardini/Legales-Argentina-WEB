@@ -111,7 +111,7 @@ h4 {
     height: 290px !important; /* Ajusta según lo que consideres adecuado para móviles */
   }
   h1 {
-    font-size: 30px;
+    font-size: 40px;
   }
 
   h3 {

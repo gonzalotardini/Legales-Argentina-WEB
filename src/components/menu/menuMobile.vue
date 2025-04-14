@@ -72,6 +72,10 @@
   </script>
   
   <style scoped>
+  .bg-dark {
+    background-color: #1B263B !important;
+  
+  }
   /* Contenedor para los elementos a la derecha */
   .navbar-right {
     display: flex;

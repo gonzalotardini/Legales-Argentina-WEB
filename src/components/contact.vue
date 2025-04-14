@@ -103,4 +103,11 @@ export default {
  border-color: #006b93 !important;
 }
 
+@media (max-width: 576px) {
+  h1 {
+    text-align: center !important;
+  }
+  
+}
+
 </style>
