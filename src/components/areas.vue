@@ -20,9 +20,9 @@
                 <p>Nos especializamos en la defensa de asegurados, especialmente en casos donde las aseguradoras se niegan a cubrir el robo de un vehículo. Protegemos los derechos de los usuarios vulnerables para garantizar que reciban la indemnización justa conforme a la ley y su póliza.</p>
             </b-col>
             <b-col md="6" sm="12" class="text-center">
-                <img :src="require('@/assets/icons/futbol.svg')" alt="">
+                <img :src="require('@/assets/icons/sucesiones.svg')" alt="">
                 <h5>Sucesiones</h5>
-                <p>Ofrecemos representación legal a profesionales del fútbol y artistas, revisando detalladamente sus contratos para evitar arrepentimientos futuros y asegurar una gestión eficaz de sus intereses.</p>
+                <p>En nuestro estudio jurídico nos especializamos en sucesiones. Acompañamos cada etapa del proceso para que puedas hacer la sucesión de forma rápida, segura y sin complicaciones.</p>
             </b-col>
         </b-row>
         <b-row>
