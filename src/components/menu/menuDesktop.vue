@@ -7,7 +7,8 @@
     :class="{ 'navbar-shrink': isShrunk }"
   >
     <b-navbar-brand href="#">
-      LEGALES ARGENTINA
+      <img src="@/assets/legales2.jpeg" id=logo alt="L" />
+      <!-- LEGALES ARGENTINA -->
     </b-navbar-brand>
 
     <b-navbar-nav
@@ -151,5 +152,9 @@ a.nav-link:hover {
 .navbar-shrink .navbar-brand,
 .navbar-shrink .nav-item a.nav-link {
   font-size: 0.8rem; /* Reducir el tamaño de la fuente */
+}
+
+img {
+  max-width: 100px;
 }
 </style>

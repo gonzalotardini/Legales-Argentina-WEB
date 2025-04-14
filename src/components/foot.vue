@@ -29,20 +29,20 @@
             <p>
               <a
                 class="bi bi-instagram mr-2"
-                href="https://www.instagram.com/tuabogadoresponde/"
+                href="https://www.instagram.com/legales.argentina/"
                 target="_blank"
               ></a>
             </p>
             <p>
               <a
                 class="bi bi-facebook mr-2"
-                href="https://www.facebook.com/tuabogadoresp/"
+                href="https://www.facebook.com/LegalesDeArgentina?rdid=ABiJwCeu9B3TxV9T&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1AMDxQDEpE%2F#"
                 target="_blank"
               ></a>
             </p>
             <p>
               <a
-                href="https://www.tiktok.com/@tuabogadoresponde"
+                href="https://www.tiktok.com/@legalesargentina"
                 target="_blank"
               >
                 <svg
