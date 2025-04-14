@@ -2,7 +2,7 @@
     <div>
       <inicio/>
       <areas/>
-      <clientes/>
+      <!-- <clientes/> -->
       <conctact/>
       <foot/>
     </div>
@@ -12,7 +12,6 @@
 import inicio from '../components/inicio.vue';
 import areas from '../components/areas.vue';
 import conctact from '../components/contact.vue';
-import clientes from '../components/clientes.vue';
 import foot from '../components/foot.vue';
 
   export default {
@@ -22,7 +21,6 @@ import foot from '../components/foot.vue';
     areas,
     conctact,
     foot,
-    clientes
     }
   };
   </script>

@@ -111,7 +111,7 @@ a.nav-link {
 }
 
 .navbar {
-  background-color: #343a40 !important;
+  background-color: #1B263B !important;
   height: 120px;
   transition: height .400s ease;
 }

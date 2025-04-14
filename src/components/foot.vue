@@ -3,12 +3,8 @@
     <b-container class="pt-4">
       <b-row>
         <b-col>
-          <p>
-            <i class="bi bi-geo-alt-fill"></i> Arenales 554, B1638 Vicente
-            López, Provincia de Buenos Aires
-          </p>
           <p><i class="bi bi-whatsapp"></i> +54 9 11 2401-5528</p>
-          <p><i class="bi bi-envelope"></i> estudio@giovanellitardini.com.ar</p>
+          <p><i class="bi bi-envelope"></i> contactolegalesargentina@gmail.com</p>
           <a
             href="https://donweb.com/es-ar/certificados-ssl"
             title="Certificados SSL Argentina"
@@ -80,13 +76,13 @@ export default {
 </script>
 <style scoped>
 .footer {
-  background-color: #242632;
+  background-color: #1B263B;
   min-height: 200px;
 }
 p {
-  color: rgb(124, 124, 124);
+  color: #FFFFFF;
 }
 a {
-  color: rgb(124, 124, 124) !important;
+  color: #FFFFFF !important;
 }
 </style>

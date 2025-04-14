@@ -92,7 +92,7 @@
     right: 0;
     width: 100%;
     height: 100%; /* Asegura que ocupe el 100% de la altura visible */
-    background-color: #343a40;
+    background-color: #1B263B;
     z-index: 1050;
     transition: transform 0.3s ease-in-out;
     transform: translateX(100%); /* Inicialmente fuera de la pantalla */
