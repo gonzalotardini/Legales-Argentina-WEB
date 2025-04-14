@@ -30,12 +30,12 @@
           <a v-else :href="i.href" class="nav-link">{{ i.title }}</a>
         </b-nav-item>
       </div>
-
+<!-- 
       <div class="d-flex align-items-center">
         <b-nav-item href="#" @click="changeLanguage('es')">ES</b-nav-item>
         <span class="mx-1">|</span>
         <b-nav-item href="#" @click="changeLanguage('en')">EN</b-nav-item>
-      </div>
+      </div> -->
     </b-navbar-nav>
   </b-navbar>
 </template>

@@ -7,7 +7,7 @@
   
       <!-- Contenedor para el texto "ES | EN" y el toggle -->
       <div class="navbar-right">
-        <span class="language-options">ES | EN</span>
+        <!-- <span class="language-options">ES | EN</span> -->
         <!-- Toggle para mobile (hamburguesa y cruz) -->
         <b-navbar-toggle target="nav-bar" @click="toggleMenu">
         </b-navbar-toggle>
@@ -115,6 +115,11 @@
   .X {
     border-bottom: solid;
     border-width: 1px;
-    border-color: rgba(255, 255, 255, 0.5);
+    border-color: #fff;
   }
+
+  .nav-link, .navbar-toggler-icon{
+    color: #fff !important;
+  }
+
   </style>
