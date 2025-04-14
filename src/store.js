@@ -10,7 +10,7 @@ export default new Vuex.Store({
       {title: "INICIO", href: "#inicio", action:""},
       // {title: "SOBRE NOSOTROS", href: "#sobreNosotros", action:""},
       {title: "ÁREAS DE PRÁCTICA", href: "#areasDePractica", action:""},
-      {title: "NUESTROS CLIENTES", href: "#nuestrosClientes", action:""},
+      // {title: "NUESTROS CLIENTES", href: "#nuestrosClientes", action:""},
       {title: "CONTACTO", href: "#contacto", action:""},
     ]
   },
