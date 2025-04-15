@@ -5,17 +5,6 @@
         <b-col>
           <p><i class="bi bi-whatsapp"></i> +54 9 11 2401-5528</p>
           <p class="text-nowrap"><i class="bi bi-envelope"></i> contactolegalesargentina@gmail.com</p>
-          <a
-            href="https://donweb.com/es-ar/certificados-ssl"
-            title="Certificados SSL Argentina"
-            target="_blank"
-          >
-            <!-- Imagen del logo SSL -->
-            <img
-              src="https://micuenta.donweb.com/img/sectigo_positive_sm.png"
-              alt="Certificado SSL"
-            />
-          </a>
         </b-col>
         <b-col>
           <b-row>
