@@ -2,7 +2,7 @@
     <div>
       <inicio/>
       <areas/>
-      <!-- <clientes/> -->
+      <misionVision/>
       <conctact/>
       <foot/>
     </div>
@@ -11,6 +11,7 @@
   <script>
 import inicio from '../components/inicio.vue';
 import areas from '../components/areas.vue';
+import misionVision from "../components/misionVision.vue"
 import conctact from '../components/contact.vue';
 import foot from '../components/foot.vue';
 
@@ -19,6 +20,7 @@ import foot from '../components/foot.vue';
     components:{
     inicio,
     areas,
+    misionVision,
     conctact,
     foot,
     }
