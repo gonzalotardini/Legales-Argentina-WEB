@@ -58,4 +58,8 @@
   .card-title i {
     font-size: 1.3rem;
   }
+
+  .card {
+    border-radius: 1.5rem !important
+  }
   </style>

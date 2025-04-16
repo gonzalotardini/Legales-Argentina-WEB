@@ -231,6 +231,7 @@ export default {
 .contact-btn {
   background-color: #1b263b !important;
   border-color: #1b263b !important;
+  border-radius: 1.5rem !important;
 }
 
 input,
