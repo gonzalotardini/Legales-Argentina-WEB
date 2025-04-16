@@ -15,8 +15,8 @@
               <div class="col-md-6 mb-4">
                 <div class="card shadow-sm h-100">
                   <div class="card-body">
-                    <h4 class="card-title text-primary d-flex align-items-center">
-                      <i class="fas fa-bullseye mr-2"></i> Misión
+                    <h4 class="card-title text-brand d-flex align-items-center">
+                        <b-icon icon="bullseye" class="mr-1"></b-icon>  Misión
                     </h4>
                     <p class="card-text">
                       Brindar asesoramiento legal integral con compromiso, profesionalismo y cercanía. Nuestro objetivo es garantizar la defensa de los derechos de cada cliente, buscando soluciones eficientes y personalizadas.
@@ -29,8 +29,8 @@
               <div class="col-md-6 mb-4">
                 <div class="card shadow-sm h-100">
                   <div class="card-body">
-                    <h4 class="card-title text-success d-flex align-items-center">
-                      <i class="fas fa-eye mr-2"></i> Visión
+                    <h4 class="card-title text-brand d-flex align-items-center">
+                        <b-icon icon="eye-fill" class="mr-1"></b-icon> Visión
                     </h4>
                     <p class="card-text">
                       Ser un estudio jurídico de referencia por nuestra excelencia, innovación y trato humano. Aspiramos a construir relaciones de confianza duraderas y a crecer junto a quienes confían en nosotros.
@@ -58,8 +58,10 @@
   .card-title i {
     font-size: 1.3rem;
   }
-
   .card {
     border-radius: 1.5rem !important
+  }
+  .text-brand{
+    color: #1B263B !important
   }
   </style>
