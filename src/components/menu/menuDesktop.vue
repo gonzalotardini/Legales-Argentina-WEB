@@ -7,7 +7,7 @@
     :class="{ 'navbar-shrink': isShrunk }"
   >
     <b-navbar-brand href="#">
-      <img src="@/assets/legales2.jpeg" id=logo alt="L" />
+      <img :class="{ 'img-shrink': isShrunk }" src="@/assets/legales3.jpeg" id=logo alt="L" />
       <!-- LEGALES ARGENTINA -->
     </b-navbar-brand>
 
@@ -147,6 +147,10 @@ a.nav-link:hover {
 .navbar-shrink {
   padding: 0.5rem;
   height: 80px;
+}
+
+.img-shrink {
+  max-height: 50px;
 }
 
 .navbar-shrink .navbar-brand,
