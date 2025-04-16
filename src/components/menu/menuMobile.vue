@@ -1,8 +1,7 @@
 <template>
     <b-navbar toggleable="lg" type="dark" variant="dark">
       <b-navbar-brand href="#">
-        <!-- <img src="@/assets/icons/logo.png" alt="Logo" class="d-inline-block align-top" height="30" /> -->
-        LEGALES ARGENTINA
+        <img src="@/assets/legalesMobile.jpeg" alt="Logo" class="d-inline-block align-top" height="45" />        
       </b-navbar-brand>
   
       <!-- Contenedor para el texto "ES | EN" y el toggle -->

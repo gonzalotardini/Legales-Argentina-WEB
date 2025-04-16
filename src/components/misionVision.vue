@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-light py-5">
+    <section id="misionVision" class="bg-light py-5">
       <div class="container">
         <h1 class="text-center font-weight-bold mb-5">Nuestra Misión y Visión</h1>
         <div class="row align-items-center">

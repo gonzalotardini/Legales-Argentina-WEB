@@ -151,6 +151,7 @@ a.nav-link:hover {
 
 .img-shrink {
   max-height: 50px;
+  margin-left: 10%;
 }
 
 .navbar-shrink .navbar-brand,
