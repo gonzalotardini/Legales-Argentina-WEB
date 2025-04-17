@@ -37,6 +37,7 @@ export default {
 <style>
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 110px;
 }
 #app {
   font-family: Rubik, Helvetica, Arial, sans-serif;
@@ -59,6 +60,8 @@ html {
   text-align: center;
   font-size: 30px;
   z-index: 100;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .whatsapp-float i {
@@ -66,5 +69,12 @@ html {
   height: auto;
   padding: 10px;
   vertical-align: text-top !important;
+}
+
+.whatsapp-float:hover {
+  background-color: #1ebe5d;
+  transform: scale(1.1);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
 }
 </style>

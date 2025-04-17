@@ -232,6 +232,17 @@ export default {
   background-color: #1b263b !important;
   border-color: #1b263b !important;
   border-radius: 1.5rem !important;
+  color: #fff !important;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.contact-btn:hover {
+  background-color: #2C3E50 !important;
+  border-color: #2C3E50 !important;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transform: scale(1.03);
+  cursor: pointer;
 }
 
 input,
