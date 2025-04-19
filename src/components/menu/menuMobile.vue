@@ -72,7 +72,7 @@
   
   <style scoped>
   .bg-dark {
-    background-color: #1B263B !important;
+    background-color: #0c1d37 !important;
   
   }
   /* Contenedor para los elementos a la derecha */
