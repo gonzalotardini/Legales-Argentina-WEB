@@ -1,80 +1,51 @@
 <template>
-  <div id="app">
-    <a href="https://wa.me/5491124015528?text=Hola%20quisiera%20más%20información" class="whatsapp-float" target="_blank" rel="noopener noreferrer">
-      <i class="bi bi-whatsapp"></i>
-    </a>
-    <menuDesktop v-if="isDesktop" />
-    <menuMobile v-else />
-    <router-view></router-view>
+  <div class="maintenance-container">
+    <b-container class="h-100 d-flex align-items-center justify-content-center">
+      <b-row class="text-center">
+        <b-col>
+          <div class="box">
+            <h1 class="title">Sitio no disponible</h1>
+          </div>
+        </b-col>
+      </b-row>
+    </b-container>
   </div>
 </template>
 
 <script>
-import menuDesktop from './components/menu/menuDesktop.vue';
-import menuMobile from './components/menu/menuMobile.vue';
-
 export default {
-  name: 'App',
-  components: {
-    menuDesktop,
-    menuMobile,
-  },
-  data() {
-    return {
-      isDesktop: window.innerWidth >= 992
-    }
-  },
-  mounted() {
-  },
-  methods: {
-    changeLanguage() {
-      // Lógica para cambiar el idioma
-    }
-  }
-}
+  name: "MaintenancePage",
+};
 </script>
 
-<style>
-html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 110px;
-}
-#app {
-  font-family: Rubik, Helvetica, Arial, sans-serif;
-}
-.mobile-menu {
-  height: 100% !important;
-}
-</style>
-
 <style scoped>
-.whatsapp-float {
-  position: fixed;
-  width: 60px;
-  height: 60px;
-  bottom: 20px;
-  right: 20px;
-  background-color: #25d366;
-  color: #fff;
-  border-radius: 50px;
-  text-align: center;
-  font-size: 30px;
-  z-index: 100;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+.maintenance-container {
+  min-height: 100vh;
+  color: black;
 }
 
-.whatsapp-float i {
-  width: 100%;
-  height: auto;
-  padding: 10px;
-  vertical-align: text-top !important;
+.box {
+  padding: 40px 20px;
 }
 
-.whatsapp-float:hover {
-  background-color: #1ebe5d;
-  transform: scale(1.1);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
-  cursor: pointer;
+.title {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  opacity: 0.85;
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .title {
+    font-size: 1.6rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
 }
 </style>
